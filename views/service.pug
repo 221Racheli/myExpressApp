@@ -1,0 +1,10 @@
+html
+  head
+    title= title
+  body
+    h1= title
+    
+    ul
+      each obj in data
+        li= obj.service.name + ' - ' + obj.service.repo
+
